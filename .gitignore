@@ -1,0 +1,8 @@
+You do not want to push your virtual environment, database, or compiled model files to GitHub. Create `.gitignore` in your root folder:
+```
+venv/
+__pycache__/
+*.pkl
+*.db
+*.pyc
+.env
