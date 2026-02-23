@@ -18,6 +18,9 @@ HIGH_PRIORITY_PATTERNS = [
     r"(down|outage|no service).{0,20}\d+\s*days?",
     r"work from home",
     r"business.{0,15}(affected|impacted|critical|stopped)",
+    r"never subscribed",
+    r"never signed up",
+    r"didn.t sign up",
 ]
 
 # Precompile regex patterns for efficiency

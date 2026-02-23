@@ -11,7 +11,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from preprocessor import clean_text
 
-DATA_PATH  = os.path.join(os.path.dirname(__file__), "../data/complaints.csv")  #Path to the dataset CSV file
+DATA_PATH  = os.path.join(os.path.dirname(__file__), "../data/complaints_final.csv")  #Path to the dataset CSV file
 MODELS_DIR = os.path.join(os.path.dirname(__file__), "../models")   #Directory to save trained models
 SEED       = 42             #Random seed for reproducibility
 
